@@ -12,6 +12,10 @@ body{
     align-items: center;
 }
 
+.globe-img{
+    height: 150px;
+}
+
 form{
     display: flex;
     justify-content: flex-end;
@@ -46,6 +50,7 @@ input:focus{
 }
 
 #search-result article{
+    width: 700px;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -60,10 +65,13 @@ input:focus{
 
 #search-result span{
     display: flex;
+    align-items: center;
 }
 
 #search-result .flag{
-    max-width: 40px;
+    min-width: 40px;
+    width: auto;
+    max-height: 40px;
     margin-right: 30px;
 }
 
